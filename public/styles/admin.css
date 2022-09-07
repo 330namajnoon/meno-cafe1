@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Dosis:wght@500&family=Libre+Baskerville&family=Lora:ital@0;1&family=Merriweather:ital,wght@1,300&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@500&display=swap');
+body {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    
+}
+#test5 {
+    top: 20%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    float: left;position: relative;width: 100%;height: 40%;overflow-x: scroll;border: solid .5vw rgba(58, 54, 54, 0.8);padding-bottom: 2vw;overflow-y: auto;
+    color: #ADEBF0;background-color: #ADEBF0;text-align: center;
+    position: absolute;float: left;width: 100%;height: 30vw;background-color: #ADEBF0;color: #ADEBF0;text-align: center;padding-bottom: 0%;
+}
+
+#meno_add_span {
+    float: right;
+    position: absolute;
+    font-size: 5vw;
+    color: #ADEBF0;
+    left: 10;
+    top: 19;
+    
+}
+
+
+#add_meno_file {
+    display: none;
+}
+
+
+#meno_div {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 3vw;
+    text-align: center;
+
+}
+#meno_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5vw;
+    /* position: absolute; */
+
+}
+#meno_h1_div {
+    position: absolute;
+    margin-bottom: 30vw;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#meno_h1 {
+    
+    width: 100%;
+    margin: 0;
+    top: 0;
+    font-size: 10vw;
+   
+    
+}
+hr {
+    position: absolute;
+}
+
+#delete {
+    z-index: 1;
+    margin-top: -30%;
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    height: 10vw;
+    border: solid 0 ;
+    
+}
+#meno_edit {
+    left: 3%;
+    top: 67%;
+    position: absolute;
+    font-size: 8vw;
+    background-color: aliceblue;
+    color: #ADEBF0;
+    border-radius: 10vw;
+    border: solid 1vw black;
+    padding: 1vw;
+}
+
